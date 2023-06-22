@@ -6,7 +6,7 @@ import './App.css';
 
 function App(){
   return(
-    <div className='App-header '>
+    <div className='App-Body'>
     <AppHeader />
     <Body />
     <Footer/>

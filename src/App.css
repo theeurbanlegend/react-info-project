@@ -13,15 +13,24 @@
   align-items: center;
   justify-content: space-between;
   margin-left:2rem;
+  padding-top:10px;
+  padding-bottom:10px;
 }
-.React p{
+.React h3{
   margin:0;
   color: rgb(35, 196, 196);
   font-weight: bold;
   font-size:2rem;
   padding-left:5px;
 }
+.React h4{
+  padding-right: 20px;
+  color:white;
+  position: absolute;
+  right:0;
+}
 .App-nav{
+  box-sizing: border-box;
   background-color: rgb(8, 16, 31);
   display: flex;
   flex-direction:row;
@@ -41,7 +50,7 @@
   font-size: 3rem;
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1rem; /* Also needed for space (tweak if needed) */
 }
 
 /* @media (prefers-reduced-motion: no-preference) {
@@ -49,11 +58,11 @@
     animation: App-logo-spin infinite 20s linear;
   }
 } */
-.App-header h1{
+.App-Body h1{
   margin-left:2rem;
 }
 
-.App-header {
+.App-Body {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
