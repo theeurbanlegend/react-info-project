@@ -8,7 +8,6 @@ function AppHeader(){
             <h4>React Course-Project 1</h4>
           </div>
         </div>
-        <h1> Fun Facts about React</h1>
       </div>
     )}
  export default AppHeader 
